@@ -30,7 +30,6 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/"  element={<Home />} />
           <Route path="/carnet"  element={<CarnetIndex />} />
           <Route path="/creer"  element={<CreerCarnet />} />
           <Route path="/edit/:id"  element={<EditCranet />} />
